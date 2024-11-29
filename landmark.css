@@ -1,0 +1,95 @@
+.body{
+    background-color: #4a4a4a;
+    height: 8vh;
+    width: 200vh;
+    justify-content: center;
+    margin: 20px;
+    }
+.logo img {
+    height: 50px;
+    align-content: center;
+
+}
+.logo-font{
+    font-size: medium;
+    font-family: monospace;
+    font-weight: 500;
+    color:whitesmoke;
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #004578;
+    color: white;
+}
+.part-1{
+    background-color: rgb(230, 230, 115);
+    height: 30vh;
+    width: 200vh;
+    justify-content: center;
+    margin: 20px;
+    padding-top: 10px;
+
+}
+.part-2{
+    background-color: #7eb8dc;
+    height: 30vh;
+    width: 200vh;
+    justify-content: center;
+    margin: 20px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+/* Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: rgb(11, 11, 11);
+  }
+
+   /* Content Sections */
+   .content-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .part-3{
+    background-color: #82dd85;
+    height: 30vh;
+    width: 200vh;
+    justify-content: center;
+    margin: 20px;
+}
+.part-4{
+    background-color: #e06a6a1b;
+    height: 30vh;
+    width: 200vh;
+    justify-content: center;
+    margin: 20px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #00457C;
+    color: #fff;
+  }
